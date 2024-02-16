@@ -1,2 +1,3 @@
 echo "this is a new class"
-oo
+this is different
+
