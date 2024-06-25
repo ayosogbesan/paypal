@@ -16,12 +16,12 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
 
-#cloning the repository
+     #cloning the repository
     steps:
       - name: checkout respository 
         uses: actions/checkout@v3
         
-# installing terraform
+     # installing terraform
       - name: set up terraform
         uses: hashicorp/setup-terraform@v3
         with:
