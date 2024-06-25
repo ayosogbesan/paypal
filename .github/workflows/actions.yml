@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - master
+env: 
+  aws_access_key_id: "${{ secrets.ACCESS_KEY_ID }}"
+  aws_secret_access_key:  "${{ secrets.SECRET_ACCESS_KEY }}"
 
 jobs:
   terraform:
