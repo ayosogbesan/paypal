@@ -9,7 +9,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "ca-central-1"
+ region = "ca-central-1"
 }
 
 # Create a VPC
@@ -18,6 +18,6 @@ resource "aws_vpc" "my_vpc" {
 }
 
 resource "aws_s3_bucket" "tfs_bucket" {
-    bucket = "my_tfs_bucket"
+    bucket = "my_terraform_bucket"
     acl = "private"
 }
